@@ -1,0 +1,3 @@
+0 Cellphone
+1 Hand
+2 Scissor
