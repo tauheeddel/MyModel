@@ -7,7 +7,7 @@ myClassifier = cvzone.Classifier('MyModel/keras_model.h5', 'MyModel/labels.txt')
 
 while True:
     _, img = cap.read()
-    predictions = myClassifier.get_predictions(img)
-    
+    predictions = myClassifier.getPrediction(img)
+
     cv2.imshow("Image", img)
     cv2.waitKey(1)
