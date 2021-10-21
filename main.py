@@ -1,3 +1,5 @@
+#Trained Model Using https://teachablemachine.withgoogle.com/train/image
+
 import cvzone
 import cv2
 
